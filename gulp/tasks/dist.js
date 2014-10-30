@@ -1,5 +1,5 @@
 var gulp      = require('gulp');
 
-gulp.task('dist', ['clean'], function() {
+gulp.task('dist', [], function() {
   gulp.start('build');
 });

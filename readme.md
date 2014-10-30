@@ -7,7 +7,7 @@ Using gulp in a frontend project is incredibly useful with all of the helpers th
 But what if you are working on a rails project but want to make use of gulp still? This is an easy way to setup a project to do such a thing. Best of both worlds. Use the gulp build systems and the rails pipeline together.
 
 ## How?
-A normal Gulp project will compile and send everything into a public dist directory, this watches and compiles directly to your public and your rails assets directory for use within the rails asset pipeline.
+A normal Gulp project will compile and send everything into a public dist directory, this watches and compiles directly to your public and your rails assets directory for use within the rails asset pipeline. You will notice in the gulp tasks that it still uses the dist directory, but it also pipes
 
 ## Things to note:
 There is another repo that makes use of a vagrant + puppet setup so you can provision a box and install puppet and install all dependencies for gulp and node on that virtualbox.
